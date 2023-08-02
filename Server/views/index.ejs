@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Document</title>
+    
+</head>
+<body>
+    <div style="margin:2% 42%; font-weight:bold "><%= email %></div>
+    <form  style="border: 5px outset rgb(224, 223, 223);
+    border-radius: 10px;
+    margin:2% 35%;
+    padding: 2%;
+    text-align: center;
+    background-color:rgba(250, 235, 215, 0.908);
+    " method='post'>
+
+        <h2 style=" color:black;
+        font-weight: bold;
+        font-size:24px;">Reset Password</h2>
+    
+            <div style="margin-bottom: 2% ;">
+                <input type="password" style="padding: 5px;border-radius: 10px;outline: none;border:transparent" name="password" placeholder='Password' />
+                
+            </div>
+
+            
+            <div style="margin-bottom: 2%;">
+                <input type="password" style="padding: 5px;border-radius: 10px;outline: none;border:transparent" name="cpassword" placeholder='Confirm Password'/>
+                
+            </div>
+
+            <button style="border-radius:10px;padding: 5px; background-color: burlywood;margin-top:4%;width:55%">Reset</button>
+        </form>
+</body>
+</html>

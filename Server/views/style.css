@@ -1,0 +1,39 @@
+*{
+    margin:none;
+    padding:none;
+}
+.login--page{
+    padding: 20px;
+    background-image: url("./images/ems.avif");
+    background-size: 100% 100%;
+    color:black;
+    font-weight: bold;
+    height:566px;
+}
+.login--form{
+    border: 5px outset rgb(224, 223, 223);
+    border-radius: 10px;
+    margin:8% 35%;
+    background-color:rgba(250, 235, 215, 0.908);
+    
+    
+}
+.login--head{
+    color:black;
+    font-weight: bold;
+    font-size:24px;
+}
+.login--btn{
+    width:100%;
+}
+.login-links{
+    text-decoration: none;
+    color:brown;
+}
+.login-links:hover{
+    color:black;
+}
+.login--error{
+    color:red;
+    line-height: 40px;
+}
