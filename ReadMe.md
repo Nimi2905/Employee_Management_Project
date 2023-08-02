@@ -22,9 +22,9 @@ Tables:
 2. users: fields (id(auto), email, password)
 
      <b>  Add .env file in Server to contain email sending data like as folows:</b>
-MAIL_FROM = "<Your Email>"
-MAIL_HOST = "<Email_Host>"
+MAIL_FROM = "Your Email"
+MAIL_HOST = "Email_Host"
 MAIL_PORT = 465
-MAIL_USER = "<Same as Mail_FROM>"
-MAIL_PASS = "<Your Password>"  //If mail is two step verified generate App password
+MAIL_USER = "Same as Mail_FROM"
+MAIL_PASS = "Your Password"  //If mail is two step verified generate App password
 </pre>
